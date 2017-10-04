@@ -424,6 +424,7 @@ nav.navbar.navbar-default {
 }
 .quantity-add-to-cart input {
     margin-right: 2rem;
+    max-width: 8rem;
 }
 
 .featured-products .row > div {
