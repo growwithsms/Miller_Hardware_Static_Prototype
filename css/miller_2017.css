@@ -313,7 +313,7 @@ nav.navbar.navbar-default {
 	border-color: rgb(255, 255, 255);
 	border-radius: 5px;
 	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4),inset 0px 24px 87px 0px rgba(194, 194, 194, 0.7);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4),inset 0px 0px 87px 0px rgba(194, 194, 194, 0.7);
 	padding: 1rem;
 	margin-bottom: 4rem;
 }
