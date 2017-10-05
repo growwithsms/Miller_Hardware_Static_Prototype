@@ -224,6 +224,7 @@ nav.navbar.navbar-default {
     font-weight: bold;
     color: #fff;
     text-transform: uppercase;
+    text-align: center;
 }
 @media (min-width: 768px) and (max-width: 1199px) {
 	.navbar-default .navbar-nav > li > a {
