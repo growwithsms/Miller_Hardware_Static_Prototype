@@ -98,6 +98,7 @@ p {
 	color: #fff;
 	border-color: rgb(5,77,41);
 	font-weight: bold;
+	margin-right: 1rem;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -699,4 +700,19 @@ nav.navbar.navbar-default {
 
 .contact-form .btn-primary:active:hover {
 	background: rgb(150, 48, 16);
+}
+
+
+/* -------------------------------------------- */
+/* ---------------- Product Page -------------- */
+/* -------------------------------------------- */
+.variant-info-wrap,
+.meta-product-info {
+    font-size: 12px;
+    opacity: 0.75;
+    margin-bottom: 1rem;
+}
+
+.VarDesc {
+    font-weight: bold;
 }
