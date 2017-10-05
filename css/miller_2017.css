@@ -250,6 +250,12 @@ nav.navbar.navbar-default {
 	background: #61963e;
 	color: #fff;
 }
+.nav-categories .glyphicon {
+    color: #09733f;
+    vertical-align: middle;
+    font-size: 0.75rem;
+    line-height: 1;
+}
 .navbar img {
 	margin-bottom: -0.75rem;
     margin-top: -1.5rem;
