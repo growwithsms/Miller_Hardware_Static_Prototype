@@ -338,6 +338,7 @@ nav.navbar.navbar-default {
 	position: relative;
 	min-height: 100px;
 	text-align: center;
+	text-transform: uppercase;
 }
 .main-header:after {
 	content:"";
@@ -648,4 +649,54 @@ nav.navbar.navbar-default {
     height: 100%;
     width: 100%;
     margin: 0;
+}
+
+/* -------------------------------------------- */
+/* ---------------- Contact Page ---------------- */
+/* -------------------------------------------- */
+.contact-form {
+    padding: 2rem;
+    background-image: linear-gradient( 0deg, rgb(5,77,41) 0%, rgb(9,119,65) 100%);
+    border-radius: 3px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-form .form-group {
+    display: flex;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.contact-form .form-group.stacked {
+	flex-wrap: wrap;
+}
+.contact-form .form-group.stacked label {
+	width: 100%;
+	flex: none;
+}
+.contact-form .form-group label {
+    background-image: linear-gradient( 0deg, rgb(203,203,203) 0%, rgb(255,255,255) 100%);
+    padding: 6px 12px;
+    margin: 0;
+    flex: 1;
+}
+.contact-form .form-group textarea,
+.contact-form .form-group input {
+    border-radius: 0;
+    flex: 10;
+}
+
+.contact-form .btn-primary {
+  border-width: 2px;
+  border-color: rgb(150, 48, 16);
+  border-style: solid;
+  background-image: linear-gradient( 0deg, rgb(181,53,13) 0%, rgb(232,78,29) 97%);
+  text-transform: uppercase;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.contact-form .btn-primary:active:hover {
+	background: rgb(150, 48, 16);
 }

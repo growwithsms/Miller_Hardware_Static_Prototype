@@ -23,6 +23,7 @@ if( $('.home-page').length ) {
         imagesLoaded: true,
         prevNextButtons: true,
         pageDots: false,
+        wrapAround: true,
         arrowShape: {
     		x0: 25,
     		x1: 60, y1: 30,
@@ -39,6 +40,7 @@ if( $('.home-page').length ) {
         prevNextButtons: true,
         pageDots: false,
         groupCells: true,
+        wrapAround: true,
         arrowShape: {
     		x0: 25,
     		x1: 60, y1: 30,
