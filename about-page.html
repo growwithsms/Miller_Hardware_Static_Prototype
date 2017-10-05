@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Miller Home Page Prototype</title>
+    <title>Miller Category Page Prototype</title>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,13 +15,11 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Flickity -->
-    <link href="css/flickity.min.css" rel="stylesheet">
     <!-- 2017 Miller Skin -->
     <link href="css/miller_2017.min.css" rel="stylesheet">
 </head>
 
-<body class="home-page">
+<body class="category-page">
     <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <symbol id="fa-tint" viewBox="0 0 16 28">
@@ -138,266 +136,140 @@
                 <p>Total Items: <span>0</span> Current Total: $<span>0.00</span></p>
             </div>
         </div>
-        <div class="featured-announcements hidden-xs hidden-sm">
-            <div class="active featured-announcement featured-announcement-about">
-                <div class="row">
-                    <div class="col-md-5">
-                        <img src="images/feature-about.png" alt="Miller Hardware History">
-                    </div>
-                    <div class="col-md-7">
-                        <h2>Serious about hardware since 1908</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-announcement featured-announcement-phone">
-                <div class="row">
-                    <div class="col-md-5">
-                        <h3>Talk to one of our expert staff:</h3>
-                    </div>
-                    <div class="col-md-7 align-bottom">
-                        <a href="tel:18552771511"><img src="images/phone-staff.png" alt="Call us today"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="featured-announcement featured-announcement-garden">
-                <div class="row">
-                    <div class="col-md-3">
-                        <img src="images/seasons-garden-home.png" alt="Seasons Home & Garden">
-                    </div>
-                    <div class="col-md-5">
-                        <h3>The garden shop of miller hardware</h3>
-                    </div>
-                    <div class="col-md-4 align-bottom">
-                        <img src="images/wheel-barrow.png" alt="wheel barrow of flowers">
-                    </div>
-                </div>
-            </div>
+
+        <!-- Main Page Content -->
+        <div class="main-header">
+            <h1>Services &amp; Values</h1>
         </div>
-        <div class="featured-promotions">
-            <div class="featured-promotion">
-                <a href="#">
-                    <img src="images/banner-traeger-grills.jpg" alt="Traeger Grills Promo">
-                </a>
-            </div>
-            <div class="featured-promotion">
-                <a href="#">
-                    <img src="images/banner-dewalt.jpg" alt="Dewalt Promo">
-                </a>
-            </div>
-            <div class="featured-promotion">
-                <a href="#">
-                    <img src="images/banner-seasons.jpg" alt="Seasons Promo">
-                </a>
-            </div>
-        </div>
-        <div class="featured-products">
-            <div class="row">
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" class="featured-product-image">
-                        <img src="http://placehold.it/250">
-                    </a>
-                    <h5 class="featured-product-name">
-                        <a href="#">A Featured Product Name</a>
-                    </h5>
-                    <p class="featured-product-price">$999.99</p>
-                    <p class="featured-product-description">The first 20'ish words of the product description ...</p>
-                    <form class="quantity-add-to-cart">
-                        <input type="number" class="form-control" id="quantity" value="1">
-                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add to cart</button>
-                    </form>
+        <div class="main">
+            <div class="row align-center">
+                <div class="col-md-3">
+                    <img src="images/logo.png" alt="Miller Hardware" width="192" height="59">
                 </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" class="featured-product-image">
-                        <img src="http://placehold.it/250">
-                    </a>
-                    <h5 class="featured-product-name">
-                        <a href="#">A Featured Product Name</a>
-                    </h5>
-                    <p class="featured-product-price">$999.99</p>
-                    <p class="featured-product-description">The first 20'ish words of the product description ...</p>
-                    <form class="quantity-add-to-cart">
-                        <input type="number" class="form-control" id="quantity" value="1">
-                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add to cart</button>
-                    </form>
+                <div class="col-md-6">
+                    <img src="images/miller-about.jpg" alt="Miller Hardware Location Photos" width="345" height="83">
                 </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" class="featured-product-image">
-                        <img src="http://placehold.it/250">
-                    </a>
-                    <h5 class="featured-product-name">
-                        <a href="#">A Featured Product Name</a>
-                    </h5>
-                    <p class="featured-product-price">$999.99</p>
-                    <p class="featured-product-description">The first 20'ish words of the product description ...</p>
-                    <form class="quantity-add-to-cart">
-                        <input type="number" class="form-control" id="quantity" value="1">
-                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add to cart</button>
-                    </form>
+                <div class="col-md-3">
+                    <img src="images/seasons.png" alt="Seasons Garden and Home" width="164" height="83">
                 </div>
-                <div class="col-sm-6 col-md-3">
-                    <a href="#" class="featured-product-image">
-                        <img src="http://placehold.it/250">
-                    </a>
-                    <h5 class="featured-product-name">
-                        <a href="#">A Featured Product Name</a>
-                    </h5>
-                    <p class="featured-product-price">$999.99</p>
-                    <p class="featured-product-description">The first 20'ish words of the product description ...</p>
-                    <form class="quantity-add-to-cart">
-                        <input type="number" class="form-control" id="quantity" value="1">
-                        <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Add to cart</button>
-                    </form>
+                <div class="col-md-12">
+                    <hr>
                 </div>
-            </div>
-        </div>
-        <div class="featured-photos">
-            <img src="images/seasons-social.png">
-        </div>
-        <div class="featured-brands-wrapper">
-            <h3>Featured <span style="color: #007740">Brands</span></h3>
-            <div class="featured-brands">
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="images/brands/3m.jpg" alt="3M">
-                    </a>
+                <div class="col-sm-5">
+                    <img src="images/miller-md.jpg" alt="Miller Hardware Building" class="thumbnail">
                 </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="images/brands/ags.png" alt="AGS">
-                    </a>
+                <div class="col-sm-7">
+                    <p>Seasons Garden Center, a division of Miller Hardware Company, was established in 1998 to serve the residential gardening enthusiast. Seasons is attached to a Miller Hardware retail location on the Northside of Valdosta, Georgia.</p>
+                    <p>Seasons is designed to entice customer slow down and enjoy playing in the dirt. Offerings include annuals, perennials, trees, shrubs, and houseplants. Aside from living plants, Seasons Garden Center carries a wide array of premier outdoor living products.</p>
+                    <p>All product offered on this website is pertinent to this location. <a href="#"><strong>Contact Us</strong></a></p>
                 </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="images/brands/aircat.jpg" alt="aircat">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="images/brands/airmaster.jpg" alt="airmaster">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="images/brands/ao-smith.jpg" alt="AO Smith">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="http://placehold.it/120" alt="3M">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="http://placehold.it/120" alt="AGS">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="http://placehold.it/120" alt="aircat">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="http://placehold.it/120" alt="airmaster">
-                    </a>
-                </div>
-                <div class="featured-brand">
-                    <a href="#">
-                        <img src="http://placehold.it/120" alt="AO Smith">
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="valdosta-location">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <img src="images/miller.jpg" alt="Miller Hardware Company storefront">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                         <h3>About Miller Hardware's Valdosta Location</h3>
-                        </div>
-                        <div class="panel-body">
-                            <p>Miller Hardware Company has been serving the people and comunities of South Georgia and North Florida since 1908.</p>
-                            <p>Miller Hardware Company has evolved into one of the largest independent hardware companies in South Georgia. <a href="#">Learn More</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="google-maps-location">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="map-panel active" id="miller">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Miller Hardware Company</strong><br>
-                                        211 East Hill Avenue<br>
-                                        Valdosta, GA 31603
-                                    </p>
-                                    <p>
-                                        p: 229.244.0924<br>
-                                        f: 229.244.6687
-                                    </p>
-                                </div>
+                <div class="col-md-12">
+                    <div class="map-banner">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h4>Seasons Garden Center</h4>
+                                <p>3137 N Oak Street<br>
+                                Valdosta, GA 31603</p>
                             </div>
-                            <div class="map-panel" id="seasons">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Seasons Garden Center</strong><br>
-                                        3137 North Oak Street Extension<br>
-                                        Valdosta, GA 31602
-                                    </p>
-                                    <p>
-                                        p: 229.245.8054<br>
-                                        f: 229.245.7074
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="map-panel" id="whitehead">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Whitehead Industrial Hardware</strong><br>
-                                        104 South Lee Street<br>
-                                        Valdosta, GA 31601
-                                    </p>
-                                    <p>
-                                        p: 229.242.3910<br>
-                                        f: 229.245.0579
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="map-tabs">
-                                <a href="#miller" class="btn btn-default">
-                                    Miller Hardware Company
-                                </a>
-                                <a href="#seasons" class="btn btn-default">
-                                    Seasons Garden Center
-                                </a>
-                                <a href="#whitehead" class="btn btn-default">
-                                    Whitehead Industrial
-                                </a>
+                            <div class="col-sm-8">
+                                <img src="images/seasons-map-wide.jpg">
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <img src="images/traeger-ad.jpg">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4>Contact Us</h4>
+                            <p><strong>p:</strong> 229.245.8054</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Hours of Operation</h4>
+                            <p>8:00 a.m. - 6:00 p.m. M-S<br>
+                            Closed Sunday</p>
                         </div>
                     </div>
+                </div>
+            </div>
+            <div class="row align-center">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logo.png" alt="Miller Hardware" width="192" height="59">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/miller-hil-ave-about.jpg" alt="Miller Hardware Location Photos" width="345" height="83">
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="col-sm-5">
+                    <img src="images/miller-hill-avenue-location.jpg" alt="Miller Hardware Building" class="thumbnail">
+                </div>
+                <div class="col-sm-7">
+                    <p>Miller Hardware Company has been serving the people and communities of South Georgia and North Florida since 1908. Miller Hardware established its flagship location in downtown Valdosta after moving from Lakeland, Georgia.</p>
+                    <p>Miller Hardware Company has evolved into one of the largest independent hardware companies in South Georgia. As a fourth generation family business, Miller Hardware Company continues to carry forward its reputable customer service through three distinct divisions.  <a href="#"><strong>Contact Us</strong></a></p>
+                </div>
+                <div class="col-md-12">
+                    <div class="map-banner">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <h4>Miller Hardware Company </h4>
+                                <p>211 E Hill Ave<br>
+                                Valdosta, GA 31601</p>
+                            </div>
+                            <div class="col-sm-8">
+                                <img src="images/miller-map-wide.jpg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5 col-md-offset-1">
+                            <h4>Contact Us</h4>
+                            <p><strong>p:</strong> 229.245.8054</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h4>Hours of Operation</h4>
+                            <p>8:00 a.m. - 6:00 p.m. M-S<br>
+                            Closed Sunday</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-center">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://whiteheadindustrial.com/App_Themes/skin_1/img/whitehead-logo.svg" alt="Miller Hardware" width="192">
+                </div>
+                <div class="col-md-6">
+                    <img src="images/whitehead-location-photos.jpg" alt="Miller Hardware Location Photos" width="345" height="83">
+                </div>
+                <div class="col-md-3">
+                    
+                </div>
+                <div class="col-md-12">
+                    <hr>
+                </div>
+                <div class="col-sm-5">
+                    <img src="images/whitehead-storefront.jpg" alt="Whitehead Industrial Building Storefront" class="thumbnail">
+                </div>
+                <div class="col-sm-7">
+                    <p>Whitehead Hardware Company, a division of Miller Hardware Company, was created in 1972 with the purchase of Whitehead Hardware Incoiporated from the estate of the late Mr. Whitehead. On the foundation of wholesale and retail hardware experience, Whitehead has grown to its present starus of being a complete supply house serving industry, construction, and municipalities.</p>
+                    <p><strong>Visit <a href="https://www.whiteheadindustrial.com/">whiteheadindustrial.com</a></strong></p>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Global Site Footer -->
     <div class="footer">
         <div class="container">
             <div class="row">
@@ -459,7 +331,6 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/miller_2017.min.js"></script>
 </body>
 
