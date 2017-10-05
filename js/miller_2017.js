@@ -49,12 +49,15 @@ if( $('.home-page').length ) {
     	}
     });
 
-    // Map Tabs
-    $('.map-tabs').on('click', 'a', function(e){
-    	e.preventDefault();
-    	var $mapPanel = $(this).attr('href');
-    	$('.map-panel').removeClass('active');
-    	$($mapPanel).addClass('active');
-    });
-
 }
+
+
+// Map Tabs
+$('.map-tabs').on('click', 'a', function(e){
+    e.preventDefault();
+    var $mapPanel = $(this).attr('href');
+    $('.map-panel').removeClass('active');
+    $($mapPanel).addClass('active');
+    $('.map-tabs a').removeClass('active');
+    $(this).addClass('active');
+});
