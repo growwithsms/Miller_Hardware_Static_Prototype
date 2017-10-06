@@ -505,6 +505,7 @@ nav.navbar.navbar-default {
 }
 .quantity-add-to-cart {
     display: flex;
+    flex-wrap: wrap;
 }
 .quantity-add-to-cart input {
     margin-right: 2rem;
@@ -706,13 +707,34 @@ nav.navbar.navbar-default {
 /* -------------------------------------------- */
 /* ---------------- Product Page -------------- */
 /* -------------------------------------------- */
-.variant-info-wrap,
+.table.product-meta-table>tbody>tr>td,
 .meta-product-info {
     font-size: 12px;
     opacity: 0.75;
     margin-bottom: 1rem;
+    padding: 4px;
+    border-color: #eee;
 }
 
 .VarDesc {
     font-weight: bold;
+}
+
+.product-price {
+    font-size: 2rem;
+}
+
+.product-price span {
+    font-weight: bold;
+    color: #09733f;
+}
+@media (min-width: 768px) {
+	.product-features ul {
+	    column-count: 2;
+	    padding: 0 0 0 2rem;
+	}
+	.product-features ul li {
+	    margin-left: 1rem;
+	    margin-bottom: 0.75rem;
+	}
 }
