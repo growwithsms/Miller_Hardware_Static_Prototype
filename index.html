@@ -174,7 +174,6 @@
             </div>
         </div>
 
-
         <div class="featured-announcements hidden-xs hidden-sm">
             <div class="active featured-announcement featured-announcement-about">
                 <div class="row">
@@ -287,8 +286,34 @@
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="js/instafeed.min.js"></script>
         <div class="featured-photos">
-            <img src="images/seasons-social.png">
+            <div class="row">
+                    <div class="col-md-4 featured-photos-branding">
+                        <img src="images/seasons-garden-home.png" alt="Seasons Home & Garden">
+                    </div>
+                    <div class="col-md-8 featured-photos-links">
+                        <a href="#facebook-page">
+                            <img src="images/facebook.png" alt="Miller Facebook Page">
+                        </a>
+                        <a href="#instagram-page">
+                            <img src="images/instagram.png" alt="Miller Facebook Page">
+                        </a>
+                        <div id="instafeed"></div>
+                        <script type="text/javascript">
+                            var feed = new Instafeed({
+                                get: 'user',
+                                userId: '4571588',
+                                clientId: '50d3aba57fdb43cea669d88cff512c37',
+                                accessToken: '4571588.50d3aba.d73a21ee3a0d4b97a2c7f68d5567357d',
+                                limit: '4',
+                                resolution : 'thumbnail'
+                            });
+                            feed.run();
+                        </script>
+                    </div>
+                </div>
+            <!-- <img src="images/seasons-social.png"> -->
         </div>
         <div class="featured-brands-wrapper">
             <h3>Featured <span style="color: #007740">Brands</span></h3>

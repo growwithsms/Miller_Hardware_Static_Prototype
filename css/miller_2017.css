@@ -398,7 +398,8 @@ nav.navbar.navbar-default {
 /* -------------------------------------------- */
 /* ----------------- Home Page ---------------- */
 /* -------------------------------------------- */
-.featured-announcements {
+.featured-announcements,
+.featured-photos {
 	margin: 2rem 0;
     background: #8d785e url('../images/wood-bg.jpg') no-repeat center center/cover;
 	border: 2px solid #fff;
@@ -408,7 +409,8 @@ nav.navbar.navbar-default {
 	position: relative;
 	min-height: 100px;
 }
-.featured-announcements:after {
+.featured-announcements:after,
+.featured-photos:after {
 	content:"";
 	display: block;
 	position: absolute;
@@ -509,7 +511,7 @@ nav.navbar.navbar-default {
 }
 .quantity-add-to-cart input {
     margin-right: 2rem;
-    max-width: 8rem;
+    max-width: 7rem;
 }
 
 .featured-products .row > div {
@@ -527,6 +529,41 @@ nav.navbar.navbar-default {
 .featured-brand a {
 	display: block;
 }
+
+.featured-photos-links > a {
+	display: inline-block;
+	padding: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 9px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+	margin-right: 2rem;
+}
+.featured-photos-links > a:nth-child(2) {
+	border-radius: 19px;
+}
+.featured-photos > div {
+    display: flex;
+    align-items: center;
+}
+.featured-photos-links div img {
+	max-width: 70px;
+	margin-right: 2rem;
+	display: inline-block;
+	padding: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+}
+
+#instafeed {
+    display: inline-block;
+}
+
 @media (min-width: 768px) {
 	.valdosta-location .row {
 	    display: flex;
@@ -577,6 +614,7 @@ nav.navbar.navbar-default {
     margin: 3rem 0 3rem -1rem;
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.15);
 }
+
 
 
 
