@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Miller Contact Page Prototype</title>
+    <title>Miller Seasons Page Prototype</title>
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -15,11 +15,13 @@
     <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Flickity -->
+    <link href="css/flickity.min.css" rel="stylesheet">
     <!-- 2017 Miller Skin -->
     <link href="css/miller_2017.min.css" rel="stylesheet">
 </head>
 
-<body class="contact-page">
+<body class="seasons-page">
     <svg style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <symbol id="fa-tint" viewBox="0 0 16 28">
@@ -177,118 +179,56 @@
         
 
         <!-- Main Page Content -->
-        <div class="main-header">
-            <h1>Contact Us</h1>
-        </div>
-        <div class="google-maps-location">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <div class="map-panel active" id="seasons">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Seasons Garden Center</strong><br>
-                                        3137 North Oak Street Extension<br>
-                                        Valdosta, GA 31602
-                                    </p>
-                                    <p>
-                                        p: 229.245.8054<br>
-                                        f: 229.245.7074
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="map-panel" id="miller">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Miller Hardware Company</strong><br>
-                                        211 East Hill Avenue<br>
-                                        Valdosta, GA 31603
-                                    </p>
-                                    <p>
-                                        p: 229.244.0924<br>
-                                        f: 229.244.6687
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="map-panel" id="whitehead">
-                                <div class="map-panel-text">
-                                    <p>
-                                        <strong>Whitehead Industrial Hardware</strong><br>
-                                        104 South Lee Street<br>
-                                        Valdosta, GA 31601
-                                    </p>
-                                    <p>
-                                        p: 229.242.3910<br>
-                                        f: 229.245.0579
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="map-tabs">
-                                <a href="#seasons" class="btn btn-default active">
-                                    Seasons Garden Center
-                                </a>
-                                <a href="#miller" class="btn btn-default">
-                                    Miller Hardware Company
-                                </a>
-                                <a href="#whitehead" class="btn btn-default">
-                                    Whitehead Industrial
-                                </a>
-                            </div>
-                        </div>
+        <div class="main">
+            <div class="seasons-hero">
+                <div class="seasons-hero-slide">
+                    <img src="images/seasons-slide-1.jpg">
+                    <div class="seasons-hero-slide-caption">
+                        <h3>October in the Garden</h3>
+                        <p><a href="#">Learn what to do in your Bay Area garden this month.</a></p>
                     </div>
                 </div>
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-body">
-                            <h4>Hours of Operation</h4>
-                            <p>
-                                <strong>Seasons Garden Center</strong><br>
-                                8:00 a.m. - 6:00 p.m. M-S<br>
-                                Closed Sunday
-                            </p>
-                            <p>
-                                <strong>Miller Hardware Company</strong><br>
-                                8:00 a.m. - 6:00 p.m. M-F<br>
-                                8:00 a.m. - 12:00 p.m. Saturday<br>
-                                Closed Sunday
-                            </p>
-                            <p>
-                                <strong>Whitehead Industrial</strong><br>
-                                8:00 a.m. - 6:00 p.m. M-S<br>
-                                8:00 a.m. - 12:00 p.m. Saturday<br>
-                                Closed Sunday
-                            </p>
-                        </div>
+                <div class="seasons-hero-slide">
+                    <img src="images/seasons-slide-2.jpg">
+                    <div class="seasons-hero-slide-caption">
+                        <h3>October in the Garden</h3>
+                        <p><a href="#">Learn what to do in your Bay Area garden this month.</a></p>
                     </div>
+                </div>
+                <img src="images/seasons.png" class="hidden-xs">
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="images/who-we-are-square.png" alt="Who We Are">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="images/plants-and-live-goods-square.png" alt="Who We Are">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="images/gift-shop-square.png" alt="Who We Are">
+                    </a>
+                </div>
+                <div class="col-md-3">
+                    <a href="#">
+                        <img src="images/how-to-find-us-square.png" alt="Who We Are">
+                    </a>
                 </div>
             </div>
-        </div>
-        <div class="main">
             <div class="row">
-                <form class="contact-form">
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control" id="name" placeholder="Your First and Last Name">
-                  </div>
-                  <div class="form-group">
-                    <label for="phone">Phone</label>
-                    <input type="tel" class="form-control" id="phone" placeholder="555-555-5555">
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="jane.doe@example.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputEmail2">Subject</label>
-                    <input type="text" class="form-control" id="subject" placeholder="Email Subject Line">
-                  </div>
-                  <div class="form-group stacked">
-                    <label for="message">Message</label>
-                    <textarea class="form-control" rows="6" placeholder="Type Your Message Here..." id="message"></textarea>
-                  </div>
-                  <button type="submit" class="btn btn-primary">Submit</button>
-                </form>
+                <div class="col-md-5">
+                    <img src="images/ferns.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h2>Shop Local</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    <p><strong><a href="#">Like us on facebook <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a> &nbsp; &nbsp; <a href="#">Like us on instagram <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span></a></strong></p>
+                </div>
             </div>
         </div>
 
@@ -385,6 +325,7 @@
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/flickity.pkgd.min.js"></script>
     <script src="js/miller_2017.min.js"></script>
 </body>
 

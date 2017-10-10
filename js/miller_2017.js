@@ -52,6 +52,28 @@ if( $('.home-page').length ) {
 }
 
 
+// Seasons Page Specific Scripts
+if( $('.seasons-page').length ) {
+
+    var seasonsHero = document.querySelector('.seasons-hero');
+    var heroSlider = new Flickity(seasonsHero, {
+        // options
+        cellAlign: 'left',
+        imagesLoaded: true,
+        prevNextButtons: true,
+        pageDots: false,
+        wrapAround: true,
+        cellSelector: '.seasons-hero-slide',
+        arrowShape: {
+            x0: 25,
+            x1: 60, y1: 30,
+            x2: 65, y2: 20,
+            x3: 40
+        }
+    });
+
+}
+
 // Map Tabs
 $('.map-tabs').on('click', 'a', function(e){
     e.preventDefault();

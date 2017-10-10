@@ -624,52 +624,56 @@ nav.navbar.navbar-default {
 
 
 
+
 /* -------------------------------------------- */
-/* ------------- Category Page ---------------- */
+/* ---------------- Seasons Page -------------- */
 /* -------------------------------------------- */
-.categories-grid {
-	padding: 0 1.5rem;
-	text-align: center;
+.seasons-page .main {
+    padding: 0 0 1rem 0;
+    background-color: #dfd0b9;
+    border: 0 none;
+    box-shadow: 0 0 0;
+    border-radius: 0;
 }
-.categories-grid > div {
-	margin-bottom: 2rem;
+.seasons-page .main > .row {
+	max-width: 900px;
 }
-.list-products {
-	border-top: 1px solid #ddd;
-	margin: 1rem;
-	padding: 3rem 1rem 1rem;
-	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
+.seasons-hero {
+	border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4), inset 0px 0px 87px 0px rgba(194, 194, 194, 0.7);
 }
-.list-products li {
+.seasons-hero-slide {
 	width: 100%;
 }
-@media (min-width: 768px) {
-	.list-products li {
-		width: 49%;
+.seasons-hero-slide-caption {
+	background: rgba(255,255,255,0.9);
+	padding: .15rem 2.5rem;
+	font-family: serif;
+	font-style: italic;
+}
+@media (min-width: 480px) {
+	.seasons-hero-slide-caption {
+		position: absolute;
+		bottom: 4rem;
+		right: 0;
 	}
 }
-.prod-div {
-    display: flex;
-    padding: 1rem;
+
+.seasons-hero > img {
+	position: absolute;
+	top: 0;
+	left: 4rem;
+	z-index: 1000;
+	background: rgba(255,255,255,0.9);
+	padding: 2rem;
 }
-.prod-div p {
-    margin: 0;
-}
-.prod-div .cnt {
-    padding: 1rem;
-}
-.cnt-rt {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 1rem;
-}
-.price {
-    font-size: 1.5rem;
-}
+
+
+
+
 
 /* -------------------------------------------- */
 /* ---------------- About Page ---------------- */
@@ -696,6 +700,9 @@ nav.navbar.navbar-default {
     width: 100%;
     margin: 0;
 }
+
+
+
 
 /* -------------------------------------------- */
 /* ---------------- Contact Page ---------------- */
@@ -746,6 +753,58 @@ nav.navbar.navbar-default {
 .contact-form .btn-primary:active:hover {
 	background: rgb(150, 48, 16);
 }
+
+
+
+
+/* -------------------------------------------- */
+/* ------------- Category Page ---------------- */
+/* -------------------------------------------- */
+.categories-grid {
+	padding: 0 1.5rem;
+	text-align: center;
+}
+.categories-grid > div {
+	margin-bottom: 2rem;
+}
+.list-products {
+	border-top: 1px solid #ddd;
+	margin: 1rem;
+	padding: 3rem 1rem 1rem;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.list-products li {
+	width: 100%;
+}
+@media (min-width: 768px) {
+	.list-products li {
+		width: 49%;
+	}
+}
+.prod-div {
+    display: flex;
+    padding: 1rem;
+}
+.prod-div p {
+    margin: 0;
+}
+.prod-div .cnt {
+    padding: 1rem;
+}
+.cnt-rt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.price {
+    font-size: 1.5rem;
+}
+
+
 
 
 /* -------------------------------------------- */
