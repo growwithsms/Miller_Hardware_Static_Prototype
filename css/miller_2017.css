@@ -398,8 +398,7 @@ nav.navbar.navbar-default {
 /* -------------------------------------------- */
 /* ----------------- Home Page ---------------- */
 /* -------------------------------------------- */
-.featured-announcements,
-.featured-photos {
+.featured-announcements {
 	margin: 2rem 0;
     background: #8d785e url('../images/wood-bg.jpg') no-repeat center center/cover;
 	border: 2px solid #fff;
@@ -409,8 +408,7 @@ nav.navbar.navbar-default {
 	position: relative;
 	min-height: 100px;
 }
-.featured-announcements:after,
-.featured-photos:after {
+.featured-announcements:after {
 	content:"";
 	display: block;
 	position: absolute;
@@ -530,19 +528,10 @@ nav.navbar.navbar-default {
 	display: block;
 }
 
-.featured-photos-links > a {
-	display: inline-block;
-	padding: 2px;
-	border-style: solid;
-	border-width: 2px;
-	border-color: rgb(255, 255, 255);
-	border-radius: 9px;
-	background-color: rgb(255, 255, 255);
-	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
-	margin-right: 2rem;
-}
-.featured-photos-links > a:nth-child(2) {
-	border-radius: 19px;
+
+.featured-photos {
+	background: url('../images/seasons-social-card.png') no-repeat center center / contain;
+	padding-top: 1rem;
 }
 .featured-photos > div {
     display: flex;
@@ -559,7 +548,24 @@ nav.navbar.navbar-default {
 	background-color: rgb(255, 255, 255);
 	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
 }
-
+.featured-photos-links {
+	text-align: right;
+	padding-right: 3rem;
+}
+.featured-photos-links > a {
+	display: inline-block;
+	padding: 2px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 9px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.38);
+	margin-right: 2rem;
+}
+.featured-photos-links > a:nth-child(2) {
+	border-radius: 19px;
+}
 #instafeed {
     display: inline-block;
 }
