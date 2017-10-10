@@ -74,6 +74,20 @@ if( $('.seasons-page').length ) {
 
 }
 
+// Mobile Optimizations
+checkSize();
+$(window).resize(checkSize);
+function checkSize(){
+    if ($('.navbar-toggle').css('display') == 'none' ){
+        // on large screens, do these things
+        $('.js-move-to-courtesy-on-mobile').appendTo('.secondary-navbar .nav');
+    } else {
+        // on small screens, do these things
+        $('.js-move-to-courtesy-on-mobile').appendTo('.navbar-right');
+    }
+}
+
+
 // Map Tabs
 $('.map-tabs').on('click', 'a', function(e){
     e.preventDefault();
