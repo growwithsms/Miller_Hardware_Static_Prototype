@@ -267,6 +267,7 @@ nav.navbar.navbar-default {
 }
 .nav-categories a {
 	color: #333;
+	padding: .5rem !important;
 }
 .nav-categories a svg {
 	fill: #065c32;
@@ -290,7 +291,7 @@ nav.navbar.navbar-default {
 	margin: 0;
 	color: #444041;
 	font-size: 12px;
-	padding: 1.6rem 1rem;
+	padding: 1rem 1rem;
 	text-align: center;
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
@@ -604,9 +605,11 @@ nav.navbar.navbar-default {
 	    display: flex;
 	}
 }
+
 .valdosta-location .panel-default > .panel-heading {
     background-image: linear-gradient( 0deg, rgb(5,77,41) 0%, rgb(9,119,65) 100%);
     color: white;
+    text-transform: uppercase;
 }
 .valdosta-location .panel-default > .panel-heading h3 {
 	margin: 1rem 0;
@@ -629,6 +632,12 @@ nav.navbar.navbar-default {
     background-image: linear-gradient( 0deg, rgb(5,77,41) 0%, rgb(9,119,65) 100%);
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
+}
+@media (min-width: 768px) {
+	   .map-tabs {
+		    display: flex;
+	    	justify-content: space-around;
+	    }
 }
 .map-panel#whitehead {
 	background-image: url('../images/whitehead-map.png');

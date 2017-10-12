@@ -23,6 +23,7 @@ if( $('.home-page').length ) {
         imagesLoaded: true,
         prevNextButtons: true,
         pageDots: false,
+        autoPlay: 4500,
         wrapAround: true,
         arrowShape: {
     		x0: 25,
