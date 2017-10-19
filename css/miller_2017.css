@@ -35,14 +35,33 @@ img {
 /* -------------------------------------------- */
 /* --------------- Typography n' icons -------- */
 /* -------------------------------------------- */
+
+body {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+
 a,
 a:hover,
 a:focus {
 	color: #05502b;
 }
+
 p {
 	line-height: 1.6;
 }
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 900;
+	letter-spacing: 1px;
+}
+h1,h4 {
+	text-transform: uppercase;
+}
+h4,h5,h6 {
+	font-weight: 400;
+}
+
 .fa {
   display: inline-block;
   width: 1em;
@@ -97,8 +116,10 @@ p {
 	background-image: linear-gradient( 0deg, rgb(5,77,41) 0%, rgb(9,119,65) 100%);
 	color: #fff;
 	border-color: rgb(5,77,41);
-	font-weight: bold;
 	margin-right: 1rem;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: normal;
 }
 .btn-primary:hover,
 .btn-primary:focus,
@@ -116,9 +137,13 @@ p {
 .courtesy-bar {
 	background-color: #231f20;
 }
+.courtesy-bar .nav-pills {
+	padding: 0 15px;
+}
 .courtesy-bar .nav-pills>li>a {
 	color: #fff;
-	font-size: 12px;
+	font-size: 10px;
+	padding: 7px 10px;
 }
 .courtesy-bar .nav-pills>li>a:hover,
 .courtesy-bar .nav-pills>li>a:focus {
@@ -216,7 +241,9 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav > li > a {
 	padding-top: .75rem;
     padding-bottom: .75rem;
-    font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
@@ -246,12 +273,6 @@ nav.navbar.navbar-default {
 	background: #61963e;
 	color: #fff;
 }
-.nav-categories .glyphicon {
-    color: #09733f;
-    vertical-align: middle;
-    font-size: 0.75rem;
-    line-height: 1;
-}
 .navbar img {
 	margin-bottom: -0.75rem;
     margin-top: -1.5rem;
@@ -260,19 +281,28 @@ nav.navbar.navbar-default {
 
 .nav-categories {
 	border: 1px solid #eee;
-	margin: 1rem 0;
+	margin: .75rem 0;
 }
 .nav-categories>li:not(:last-child) {
 	border-right: 1px solid #eee;
 }
 .nav-categories a {
-	color: #333;
+	color: #6a6a6a;
 	padding: .5rem !important;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 13px;
 }
 .nav-categories a svg {
 	fill: #065c32;
+	vertical-align: middle;
 }
-
+.nav-categories .glyphicon {
+    color: #09733f;
+    vertical-align: middle;
+    font-size: 0.75rem;
+    padding-bottom: 3px;
+}
 .cart-wrapper .nav {
 	background-image: linear-gradient( 0deg, rgb(139,119,93) 0%, rgb(174,148,113) 100%);
 	border-top-left-radius: 3px;
@@ -282,6 +312,8 @@ nav.navbar.navbar-default {
 	color: white;
 	padding: .75rem;
 	border-radius: 0;
+	text-transform: uppercase;
+	font-size: 12px;
 }
 .cart-wrapper .nav>li>a:hover,
 .cart-wrapper .nav>li>a:focus {
