@@ -626,7 +626,12 @@ nav.navbar.navbar-default {
 	display: block;
 	width: 160px;
 	height: 120px;
+
+	border-width: 1px;
+   	border-style: solid;
+   	border-image: linear-gradient(to bottom, white, white, white, #c3c3c3, #c3c3c3, #c3c3c3, white, white, white) 1 50%;
 }
+
 .featured-brand a {
 	display: block;
 }
