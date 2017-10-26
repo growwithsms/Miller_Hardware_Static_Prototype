@@ -35,9 +35,6 @@ img {
 /* -------------------------------------------- */
 /* --------------- Typography n' icons -------- */
 /* -------------------------------------------- */
-@import url("//hello.myfonts.net/count/34fd8e");
-
-@font-face {font-family: 'HelveticaLTWXX-BoldCond';src: url('fonts/34FD8E_4_0.eot');src: url('fonts/34FD8E_4_0.eot?#iefix') format('embedded-opentype'),url('fonts/34FD8E_4_0.woff2') format('woff2'),url('fonts/34FD8E_4_0.woff') format('woff'),url('fonts/34FD8E_4_0.ttf') format('truetype');}
 
 body {
 	background: #fff url(../images/bg-pattern.png) repeat-x top center;
@@ -55,7 +52,7 @@ p {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: 'HelveticaLTWXX-BoldCond' !important, sans-serif;
+	font-family: 'HelveticaLTWXX-BoldCond', sans-serif;
 	font-weight: 900;
 	letter-spacing: 1px;
 }
@@ -122,7 +119,7 @@ h4,h5,h6 {
 	border-color: rgb(5,77,41);
 	margin-right: 1rem;
 	text-transform: uppercase;
-	font-family: HelveticaLTWXX-BoldCond, sans-serif;
+	font-family: 'HelveticaLTWXX-BoldCond', sans-serif;
 	font-weight: normal;
 }
 .btn-primary:hover,
@@ -273,7 +270,7 @@ nav.navbar.navbar-default {
 .navbar-default .navbar-nav > li > a {
 	padding-top: .6rem;
     padding-bottom: .6rem;
-	font-family: HelveticaLTWXX-BoldCond, sans-serif;
+	font-family: 'HelveticaLTWXX-BoldCond', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
     color: #fff;
