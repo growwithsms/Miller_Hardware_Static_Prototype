@@ -1,0 +1,70 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3472782, 2017-10-25T16:05:26-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: HelveticaLTWXX-LightCond by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-light-condensed/
+ * 
+ * Webfont: HelveticaLTWXX-LightCondObl by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-light-condensed-oblique/
+ * 
+ * Webfont: HelveticaLTWXX-Condensed by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-condensed/
+ * 
+ * Webfont: HelveticaLTWXX-CondensedObl by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-condensed-oblique/
+ * 
+ * Webfont: HelveticaLTWXX-BoldCond by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-bold-condensed/
+ * 
+ * Webfont: HelveticaLTWXX-BoldCondObl by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-bold-condensed-oblique/
+ * 
+ * Webfont: HelveticaLTWXX-BlackCond by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-black-condensed/
+ * 
+ * Webfont: HelveticaLTWXX-BlackCondObl by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/helvetica/pro-black-condensed-oblique/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3472782
+ * Licensed pageviews: 250,000
+ * Webfonts copyright: Copyright &#x00A9; 2014 Monotype Imaging Inc. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34fd8e");
+
+  
+@font-face {font-family: 'HelveticaLTWXX-LightCond';src: url('webfonts/34FD8E_0_0.eot');src: url('webfonts/34FD8E_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_0_0.woff2') format('woff2'),url('webfonts/34FD8E_0_0.woff') format('woff'),url('webfonts/34FD8E_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-LightCondObl';src: url('webfonts/34FD8E_1_0.eot');src: url('webfonts/34FD8E_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_1_0.woff2') format('woff2'),url('webfonts/34FD8E_1_0.woff') format('woff'),url('webfonts/34FD8E_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-Condensed';src: url('webfonts/34FD8E_2_0.eot');src: url('webfonts/34FD8E_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_2_0.woff2') format('woff2'),url('webfonts/34FD8E_2_0.woff') format('woff'),url('webfonts/34FD8E_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-CondensedObl';src: url('webfonts/34FD8E_3_0.eot');src: url('webfonts/34FD8E_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_3_0.woff2') format('woff2'),url('webfonts/34FD8E_3_0.woff') format('woff'),url('webfonts/34FD8E_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-BoldCond';src: url('webfonts/34FD8E_4_0.eot');src: url('webfonts/34FD8E_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_4_0.woff2') format('woff2'),url('webfonts/34FD8E_4_0.woff') format('woff'),url('webfonts/34FD8E_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-BoldCondObl';src: url('webfonts/34FD8E_5_0.eot');src: url('webfonts/34FD8E_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_5_0.woff2') format('woff2'),url('webfonts/34FD8E_5_0.woff') format('woff'),url('webfonts/34FD8E_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-BlackCond';src: url('webfonts/34FD8E_6_0.eot');src: url('webfonts/34FD8E_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_6_0.woff2') format('woff2'),url('webfonts/34FD8E_6_0.woff') format('woff'),url('webfonts/34FD8E_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'HelveticaLTWXX-BlackCondObl';src: url('webfonts/34FD8E_7_0.eot');src: url('webfonts/34FD8E_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_7_0.woff2') format('woff2'),url('webfonts/34FD8E_7_0.woff') format('woff'),url('webfonts/34FD8E_7_0.ttf') format('truetype');}
+ 
