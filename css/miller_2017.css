@@ -1,4 +1,3 @@
-@import url("//hello.myfonts.net/count/34fd8e");
 /* -------------------------------------------- */
 /* ----------------- Base+ ------------------- */
 /* -------------------------------------------- */
@@ -50,8 +49,6 @@ a:focus {
 p {
 	line-height: 1.6;
 }
-
-@font-face {font-family: 'HelveticaLTWXX-BoldCond';src: url('webfonts/34FD8E_4_0.eot');src: url('webfonts/34FD8E_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/34FD8E_4_0.woff2') format('woff2'),url('webfonts/34FD8E_4_0.woff') format('woff'),url('webfonts/34FD8E_4_0.ttf') format('truetype');}
 
 h1,h2,h3,h4,h5,h6 {
 	font-family: 'HelveticaLTWXX-BoldCond', sans-serif;
